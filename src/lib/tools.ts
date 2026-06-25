@@ -55,17 +55,8 @@ export const TOOLS: Tool[] = [
     funnel: "Labyra Label",
     status: "active",
   },
-  {
-    key: "qr-menu",
-    slug: "qr-menu",
-    name: { tr: "QR Menü Oluşturucu", en: "QR Menu Builder" },
-    desc: {
-      tr: "Menünü gir, mobil menü sayfası ve QR al.",
-      en: "Enter your menu, get a mobile page and QR.",
-    },
-    funnel: "QR Menü",
-    status: "active",
-  },
+  // QR Menü aracı labyra.co/hizmetler/qr-menu'ye taşındı (tam ücretsiz servis).
+  // Eski /araclar/qr-menu rotası oraya yönlendirir.
   {
     key: "qr-code",
     slug: "qr-kod",

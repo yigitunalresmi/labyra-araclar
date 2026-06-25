@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🧰 Labyra Araçlar
 
-First, run the development server:
+**İşletmeler için ücretsiz web araçları** — hızlı, kayıtsız, reklamsız.
+
+[![Canlı](https://img.shields.io/badge/Canlı-app.labyra.co-C4A882?style=for-the-badge&logo=googlechrome&logoColor=white)](https://app.labyra.co)
+[![Labyra](https://img.shields.io/badge/labyra.co-6B4F2A?style=for-the-badge)](https://labyra.co)
+
+</div>
+
+---
+
+Labyra'nın küçük ve orta ölçekli işletmelere sunduğu **ücretsiz araç platformu**.
+Günlük işleri kolaylaştıran pratik araçlar; kurulum yok, kullanması bedava.
+
+## ✨ Öne çıkanlar
+
+- ⚡ Tarayıcıda anında çalışır, kayıt gerektirmez
+- 📱 Mobil uyumlu, sade arayüz
+- 🆓 Tamamen ücretsiz — Labyra'nın işletmelere katkısı
+
+## 🛠️ Teknolojiler
+
+![Next.js](https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+## 🚀 Geliştirme
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # Supabase anahtarlarını gir
+npm run dev                  # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Gerçek ortam değişkenleri (`.env.local`) depoya dahil **değildir**; yalnızca `.env.example` şablonu vardır.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 Lisans
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tüm hakları saklıdır — bkz. [LICENSE](LICENSE). Kaynak kod yalnızca görüntüleme/referans amaçlıdır; izinsiz kullanılamaz.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+<br/>
+<sub>Bir <a href="https://labyra.co">Labyra</a> ürünü · info@labyra.co</sub>
+</div>
