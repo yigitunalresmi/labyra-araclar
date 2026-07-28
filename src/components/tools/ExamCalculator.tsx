@@ -54,10 +54,6 @@ export function ExamCalculator({ user }: { user: User }) {
   }
 
   function hesapla() {
-    if (!user) {
-      router.push("/giris?return=/araclar/deneme-net");
-      return;
-    }
     const toplamGiris = cfg.dersler.reduce((s, d) => {
       const c = cevaplar[d.key] ?? { d: 0, y: 0 };
       return s + (c.d || 0) + (c.y || 0);
@@ -195,7 +191,7 @@ export function ExamCalculator({ user }: { user: User }) {
         </div>
 
         <Button onClick={hesapla} size="lg" className="mt-5 w-full">
-          {user ? "Hesapla" : "Ücretsiz giriş yap & hesapla"}
+          Hesapla
         </Button>
         {hata && (
           <p className="mt-3 text-sm text-[var(--color-danger)]">{hata}</p>

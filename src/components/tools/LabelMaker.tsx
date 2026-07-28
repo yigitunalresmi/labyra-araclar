@@ -35,10 +35,6 @@ export function LabelMaker({ user }: { user: User }) {
   }
 
   function dosyaSec() {
-    if (!user) {
-      router.push("/giris?return=/araclar/etiket-pdf");
-      return;
-    }
     dosyaRef.current?.click();
   }
 
@@ -75,10 +71,6 @@ export function LabelMaker({ user }: { user: User }) {
   }
 
   async function uret() {
-    if (!user) {
-      router.push("/giris?return=/araclar/etiket-pdf");
-      return;
-    }
     if (!satirlar.length) return;
     setDurum("uretiliyor");
     try {

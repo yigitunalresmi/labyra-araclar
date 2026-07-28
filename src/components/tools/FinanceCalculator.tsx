@@ -40,11 +40,8 @@ export function FinanceCalculator({ user }: { user: User }) {
   const [tab, setTab] = useState<Tab>("kdv");
 
   const gate = (fn: () => void) => {
-    if (!user) router.push("/giris?return=/araclar/hesaplayicilar");
-    else {
-      fn();
-      track("tool_used", { tool: "finance", tab });
-    }
+    fn();
+    track("tool_used", { tool: "finance", tab });
   };
 
   return (
@@ -94,7 +91,7 @@ function Satir({ l, v, vurgu }: { l: string; v: string; vurgu?: boolean }) {
 function HesaplaBtn({ user, onClick }: { user: User; onClick: () => void }) {
   return (
     <Button onClick={onClick} size="lg" className="mt-4 w-full">
-      {user ? "Hesapla" : "Ücretsiz giriş yap & hesapla"}
+      Hesapla
     </Button>
   );
 }

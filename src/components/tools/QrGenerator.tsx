@@ -64,10 +64,6 @@ export function QrGenerator({ user }: { user: User }) {
   }
 
   async function uret() {
-    if (!user) {
-      router.push(`/giris?return=${RETURN}`);
-      return;
-    }
     const { payload, eksik } = payloadVeKontrol();
     if (!payload) {
       setHata(eksik);
@@ -236,18 +232,12 @@ export function QrGenerator({ user }: { user: User }) {
         >
           {uretiliyor
             ? "Oluşturuluyor…"
-            : user
-              ? "QR Kod Oluştur"
-              : "Ücretsiz giriş yap & oluştur"}
+            : "QR Kod Oluştur"}
         </Button>
         {hata && (
           <p className="mt-2 text-sm text-[var(--color-danger)]">{hata}</p>
         )}
-        {!user && (
-          <p className="mt-2 text-center text-xs text-[var(--color-muted)]">
-            QR kodu oluşturmak ve indirmek için ücretsiz hesap gerekir.
-          </p>
-        )}
+
       </div>
 
       {/* SONUÇ */}

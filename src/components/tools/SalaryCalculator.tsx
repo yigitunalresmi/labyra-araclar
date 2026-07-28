@@ -40,10 +40,6 @@ export function SalaryCalculator({
   const [pdfHata, setPdfHata] = useState("");
 
   function hesapla() {
-    if (!user) {
-      router.push("/giris?return=/araclar/maas-hesaplama");
-      return;
-    }
     const t = parseFloat(tutar.replace(/\./g, "").replace(",", "."));
     if (!Number.isFinite(t) || t <= 0) {
       setHata("Geçerli bir tutar gir (0'dan büyük).");
@@ -134,16 +130,12 @@ export function SalaryCalculator({
         </label>
 
         <Button onClick={hesapla} size="lg" className="mt-5 w-full">
-          {user ? "Hesapla" : "Ücretsiz giriş yap & hesapla"}
+          Hesapla
         </Button>
         {hata && (
           <p className="mt-2 text-sm text-[var(--color-danger)]">{hata}</p>
         )}
-        {!user && (
-          <p className="mt-2 text-center text-xs text-[var(--color-muted)]">
-            Sonucu görmek ve PDF almak için ücretsiz hesap gerekir.
-          </p>
-        )}
+
       </div>
 
       {/* SONUÇ */}
