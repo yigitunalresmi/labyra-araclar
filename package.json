@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prebuild": "rm -rf .next/cache node_modules/.cache"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.0",

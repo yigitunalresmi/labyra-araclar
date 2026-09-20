@@ -21,7 +21,7 @@ export default function OgImage() {
           padding: "80px",
           background: "#0a0a0a",
           backgroundImage:
-            "radial-gradient(900px 500px at 78% -8%, rgba(196,168,130,0.18), transparent)",
+            "radial-gradient(900px 500px at 78% -8%, rgba(241,180,52,0.18), transparent)",
           fontFamily: "Roboto",
         }}
       >
@@ -32,7 +32,7 @@ export default function OgImage() {
               width: "26px",
               height: "26px",
               borderRadius: "999px",
-              border: "3px solid #c4a882",
+              border: "3px solid #f1b434",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -43,7 +43,7 @@ export default function OgImage() {
                 width: "8px",
                 height: "8px",
                 borderRadius: "999px",
-                background: "#c4a882",
+                background: "#f1b434",
               }}
             />
           </div>
@@ -76,7 +76,7 @@ export default function OgImage() {
             style={{
               marginTop: "28px",
               fontSize: "30px",
-              color: "#c4a882",
+              color: "#f1b434",
               display: "flex",
             }}
           >
@@ -95,7 +95,7 @@ export default function OgImage() {
           }}
         >
           <span>Ücretsiz hesap aç, hemen kullan</span>
-          <span style={{ color: "#c4a882" }}>labyra.co</span>
+          <span style={{ color: "#f1b434" }}>labyra.co</span>
         </div>
       </div>
     ),

@@ -4,7 +4,7 @@
 
 **İşletmeler için ücretsiz web araçları** — hızlı, kayıtsız, reklamsız.
 
-[![Canlı](https://img.shields.io/badge/Canlı-app.labyra.co-C4A882?style=for-the-badge&logo=googlechrome&logoColor=white)](https://app.labyra.co)
+[![Canlı](https://img.shields.io/badge/Canlı-app.labyra.co-F1B434?style=for-the-badge&logo=googlechrome&logoColor=white)](https://app.labyra.co)
 [![Labyra](https://img.shields.io/badge/labyra.co-6B4F2A?style=for-the-badge)](https://labyra.co)
 
 </div>
