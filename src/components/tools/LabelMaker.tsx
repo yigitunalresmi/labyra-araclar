@@ -200,7 +200,7 @@ function Adim({
   return (
     <div className="rounded-[var(--radius-card)] border border-[var(--color-border)] bg-[var(--color-surface)] p-4">
       <div className="mb-2 flex items-center gap-2">
-        <span className="flex size-6 items-center justify-center rounded-full bg-[var(--color-gold)] text-xs font-medium text-white">
+        <span className="flex size-6 items-center justify-center rounded-full bg-[var(--color-gold)] text-xs font-medium text-[#16281A]">
           {no}
         </span>
         <span className="text-sm font-medium">{baslik}</span>

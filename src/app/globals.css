@@ -30,7 +30,7 @@ html[data-theme="dark"] {
   --color-gold: #f1b434;
   --color-gold-dark: #f6ce7b;
   --color-cta: #f1b434;
-  --color-cta-hover: #a8906e;
+  --color-cta-hover: #f6ce7b;
   --color-danger: #e0795f;
   --color-success: #6fb585;
 }
@@ -45,5 +45,5 @@ body {
 
 ::selection {
   background: var(--color-gold);
-  color: #fff;
+  color: #16281a;
 }
